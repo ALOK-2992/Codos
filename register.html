@@ -1,0 +1,66 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		.col{
+			    color: #1c1c1c;
+		}
+	</style>
+	<script>
+		function verify(){
+			const name = document.getElementById('name');
+			const email = document.getElementById('email');
+			const ver = document.getElementById('ver');
+			if(email.value == 'user@test.com' && name.value == 'user'){
+				ver.href = 'otp.html';
+			}
+			else{
+				ver.href = 'unsucessful.html';
+			}
+		}
+	</script>
+	
+</head>
+<body>
+
+<div class="container-fluid">
+<div class="row">
+
+<!-- col 1 -->
+<div class="col-md-6">
+	
+	<!-- login form -->
+	<div  id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+
+    	  <div class="modal-dialog" style="margin: 150px auto;">
+    	  <p class="text-center" style="font-size: -webkit-xxx-large;color: #0a0a0a">Welcome</p>
+				<div class="loginmodal-container" style=" color:#0a0a0a ">
+					<h1>Register as an organizer</h1><br>
+				  <form method="post">
+                    <input type="text" name="uname" placeholder="Name" autocomplete="off" required id="name">
+					<input type="text" name="uname" placeholder="E-Mail id" autocomplete="off" required id="email">
+					<input type="text" name="upass" placeholder="Mobile No" autocomplete="off" required>
+                    <input type="text" name="upass" placeholder="Designation" autocomplete="off" required>
+					<a class="btn btn-primary" role="button" style="color:aliceblue ;background-color:blue;  align-self: center; width: 475px;"  onclick="verify()" id="ver">Register</a>
+				  </form>
+				  
+				  <div class="login-help text-center">
+					<h4 align="center">Existing user ? <a href="index1.html" target="_blank" style="color:#3d09fa;">Login</a></h4>
+				  </div>
+
+
+				</div>
+			</div>
+		  </div>
+
+
+</div>
+
+</div>
+	
+</div>
+</body>
+</html>

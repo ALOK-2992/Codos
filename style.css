@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+  font-family: 'Quicksand';
+}
+
+
+body{
+	max-width: 700px;
+	width: 100%;
+	margin: auto;
+	height: 50vh; 
+	display: flex;
+	justify-content: center;
+	background:#F7F7F7;
+}
+
+:focus {
+    outline:none !important;
+}
+
+
+.loginmodal-container {
+
+  padding: 60px;
+  max-width: 1000px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin:  auto;
+  border-radius: 3px;
+border: solid;
+  overflow: hidden;
+  position: "center";
+  font-family: 'Quicksand';
+    border-radius: 6px;
+	
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: 'Quicksand';
+  position: "center";
+}
+
+.loginmodal-container input[type=submit] {
+	
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+	border: 2px solid #666464 ;
+  height: 44px;
+color: black;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+/*.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}*/
+
+.loginmodal {
+	border: 10px 
+	solid gray;
+	 max-width: 700px;
+	  width: 100%;
+	   margin: auto;
+	   height: 60vh; 
+	   display: flex;
+	   align-items:center;
+	    justify-content: center;
+  
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: rgb(114, 106, 106);
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  position: "center";
+  transition: opacity ease 0.5s;
+
+} 
+
+.login-help{
+  font-size: 18px;
+  color:#080808;
+}
+.two-col {
+    overflow: hidden;/* Makes this div contain its floats */
+}
+
+.two-col .col1,
+.two-col .col2 {
+    width: 49%;
+}
+
+.two-col .col1 {
+    float: left;
+}
+
+.two-col .col2 {
+    float: right;
+}
+.two-col .col3 {
+    float: left;
+}
+.two-col .col4 {
+    float: right;
+}
+.two-col .col5 {
+    float: right;
+}
+.two-col .col6 {
+    float: left;
+}
+
+
+.two-col label {
+    display: block;
+}
+
+.col4 label {
+	text-align: left;
+}
+
+.col4 .form-check form-check-online{
+	float: left;
+}
+.col4 .form-check form-check-inline{
+	float: right;
+}
+.btn btn-primary{
+	text-align: center;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	display:grid;
+	
+}
+.buttons {
+	color: #357ae8;
+	width: 200px;
+	margin: 0 auto;
+	display: inline;}
+	
+		.action_btn {
+	width: 200px;
+	margin: 0 auto;
+	display: inline;}
+
+a:hover, a:focus {
+    color: #FFF;
+    text-decoration: none;
+}
